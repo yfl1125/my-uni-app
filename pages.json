@@ -1,0 +1,112 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {
+			"navigationBarTitleText": "2202B杨伏龙",
+			"enablePullDownRefresh": true
+		}
+
+	}, {
+		"path": "pages/cart/cart",
+		"style": {
+			"navigationBarTitleText": "购物车",
+			"enablePullDownRefresh": true
+		}
+
+	}, {
+		"path": "pages/cate/cate",
+		"style": {
+			"navigationBarTitleText": "分类",
+			"enablePullDownRefresh": true
+		}
+
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": true
+		}
+
+	}, {
+		"path": "pages/special/special",
+		"style": {
+			"navigationBarTitleText": "专题",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [
+
+			{
+				"path": "catelist/catelist",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "cate1/cate1",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}, {
+				"path": "goods_detail/goods_detail",
+				"style": {
+					"navigationBarTitleText": "商品详情",
+					"enablePullDownRefresh": true
+
+				}
+
+			}
+		]
+	}],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/tab_icons/home.png",
+				"selectedIconPath": "static/tab_icons/home-active.png"
+			},
+			{
+				"pagePath": "pages/special/special",
+				"text": "专题",
+				"iconPath": "static/tab_icons/my.png",
+				"selectedIconPath": "static/tab_icons/my-active.png"
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"text": "分类",
+				"iconPath": "static/tab_icons/cate.png",
+				"selectedIconPath": "static/tab_icons/cate-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "static/tab_icons/cart.png",
+				"selectedIconPath": "static/tab_icons/cart-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tab_icons/my.png",
+				"selectedIconPath": "static/tab_icons/my-active.png"
+			}
+		]
+
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

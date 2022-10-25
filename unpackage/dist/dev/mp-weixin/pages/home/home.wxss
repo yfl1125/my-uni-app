@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.swiper-item image {
+  width: 100%;
+}
+.ul {
+  display: flex;
+  justify-content: space-around;
+  height: 250rpx;
+  line-height: 150rpx;
+  padding-top: 40rpx;
+}
+.ul .li {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ul .li image {
+  width: 110rpx;
+  height: 90rpx;
+  padding-left: 10px;
+}
+.ul .li ._span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.p {
+  text-align: center;
+}
+.a1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.a1 .a2 {
+  width: 48%;
+  height: 240rpx;
+  margin-top: 50px;
+  position: relative;
+}
+.a1 .a2 .a3 {
+  width: 100%;
+  height: 240rpx;
+}
+.a1 .a2 .a4 {
+  position: absolute;
+  bottom: 50px;
+}
+
